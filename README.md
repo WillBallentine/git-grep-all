@@ -1,5 +1,5 @@
 # git-grep-all
-A git grep command line tool to allow you to search multiple repositories at once for keywords
+A git grep command line tool to allow you to search multiple local repositories at once for keywords
 
 # Setup
 Clone this repo to a location that has been added to your PATH already OR clone and add the new location to your path (this is currently configured for Windows only).
