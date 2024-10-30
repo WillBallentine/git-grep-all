@@ -3,6 +3,7 @@ A git grep command line tool to allow you to search multiple repositories at onc
 
 # Setup
 Clone this repo to a location that has been added to your PATH already OR clone and add the new location to your path (this is currently configured for Windows only).
+NOTE: only the git-grep-all.py file needs to be added to the path.
 
 # Usage
 Currently this is setup to work with repos in subdirectories under one main directory.
