@@ -15,6 +15,6 @@ You need to update the BASE variable to be the path to your main directory of yo
   - repo 3
   - etc
  
-In your command line, type "git-grep-all <search term>" and hit enter. This is the base use of this tool and will print all results in your prompt window.
+In your command line, type "git-grep-all 'search term'" and hit enter. This is the base use of this tool and will print all results in your prompt window.
 
-You can also write all results to a file with the --outfile flag: "git-grep-all <search term> --outfile <fileName>"
+You can also write all results to a file with the --outfile flag: "git-grep-all 'search term' --outfile 'fileName'"
