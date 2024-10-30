@@ -55,7 +55,6 @@ def print_usage():
     Options:
     -n                    Show line numbers for each match.
     -E                    Search with Regular Expressions
-    -f '*.FILETYPE'       Search using a specific file extension
     -l                    Show File names only
     --cached              Search only in staged files
     -outfile FILENAME     Write the output to FILE instead of displaying it in the console.
