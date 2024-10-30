@@ -15,21 +15,23 @@ You need to update the BASE variable to be the path to your main directory of yo
   - repo 3
   - etc
 
-    git-grep-all "search_term" [options] [--outfile output_file]
+## Options
 
-    Options:
-    -n                    Show line numbers for each match.
-    -E                    Search with Regular Expressions
-    -l                    Show File names only
-    --cached              Search only in staged files
-    -outfile FILENAME     Write the output to FILE instead of displaying it in the console.
+git-grep-all "search_term" [options] [--outfile output_file]
 
-    Example:
-    git-grep-all "error" -n --outfile results.txt
-    Searches for the term "error" in all Git repositories under the base path
-    including line numbers (-n) and saves the results to results.txt.
+Options:<br>
+-n                    Show line numbers for each match.<br>
+-E                    Search with Regular Expressions<br>
+-l                    Show File names only<br>
+--cached              Search only in staged files<br>
+-outfile FILENAME     Write the output to FILE instead of displaying it in the console.<br>
 
-    NOTE: currently you cannot combine terms. this is coming in a future release
+Example:<br>
+git-grep-all "error" -n --outfile results.txt<br>
+Searches for the term "error" in all Git repositories under the base path<br>
+including line numbers (-n) and saves the results to results.txt.<br>
+
+NOTE: currently you cannot combine terms. this is coming in a future release
 
 
 # Coming Soon
