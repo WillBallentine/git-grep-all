@@ -18,3 +18,18 @@ You need to update the BASE variable to be the path to your main directory of yo
 In your command line, type "git-grep-all 'search term'" and hit enter. This is the base use of this tool and will print all results in your prompt window.
 
 You can also write all results to a file with the --outfile flag: "git-grep-all 'search term' --outfile 'fileName'"
+
+
+# Coming Soon
+1. Optionally include line numbers
+2. Optionally include specific branch name to search
+3. Optionally allow for Regex
+4. Optionally search only specific file types
+5. Optionally only show file names
+6. Optionally limit to only one directory
+7. Optionally search only in staged files
+8. Escape special characters in searches
+9. Optionally cobmine conditions
+10. Optionally only search between commits
+11. Optionally only search previous commits
+    
